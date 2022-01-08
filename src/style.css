@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+.btn {
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid gray;
+    border-bottom: none;
+}
+
+.menu{
+    font-size: 25px;
+    font-family: serif;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.menu:hover{
+    color:#A5A58D;
+}
