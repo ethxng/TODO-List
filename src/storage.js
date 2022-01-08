@@ -18,20 +18,6 @@ export function clearDatabase(){
 // value is the string obtained from localStorage
 // this function will transform it into a valid database, then return it
 export function transformData(value){
-    /*
-    let newDatabase = new Database();
-    let leng = res.allProjects.length;
-    for (let i = 0; i < leng; i++){
-        let name = res.allProjects[i].name;
-        let proj = new Project(name);
-        let allTasks = res.allProjects[i].tasks;
-        for (let j = 0; j < allTasks.length; j++){
-            let newTask = new task(allTasks[i].title, allTasks[i].description);
-            proj.addTask = newTask;
-            newDatabase.addNewTask = newTask;
-    }
-    newDatabase.addProject = proj;
-    */
    let database = new Database();
    let length = value.allProjects.length; 
    for (let i = 0; i < length; i++){
